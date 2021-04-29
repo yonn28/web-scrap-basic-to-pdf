@@ -1,6 +1,14 @@
-# set virtual envirment
+# set virtual enviroment
 
 python3 -m venv selenium-test  
+
+# activate eviroment with
+
+source folder-for-enviroment/bin/activate
+
+# when you're done type
+
+deactivate
 
 # install dependencys with 
 
