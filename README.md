@@ -1,3 +1,9 @@
+# please download selenium driver for your os, (this code was developed for macOS, that is the driver that you find in this repo)
+
+keep in mind that you must select according to your browser version
+
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
 # set virtual enviroment
 
 python3 -m venv selenium-test  
