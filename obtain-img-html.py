@@ -14,11 +14,11 @@ driver.get('')
 #user
 sleep(random.uniform(8.0, 10.0))
 email = driver.find_element_by_xpath('/html/body/div[1]/main/section/div[1]/form/div[1]/label/input')
-email.send_keys('ggalin2@bancodebogota.com.co')
+email.send_keys('')
 #password
 sleep(random.uniform(8.0, 10.0))
 password = driver.find_element_by_xpath('/html/body/div[1]/main/section/div[1]/form/div[3]/label/input')
-password.send_keys('ftaQyKX[2^C.x~][')
+password.send_keys('')
 
 singinBtn = driver.find_element_by_xpath('//*[@id="main"]/section/div[1]/form/button[2]')
 singinBtn.click()
